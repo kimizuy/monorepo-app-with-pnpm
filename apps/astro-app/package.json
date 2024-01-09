@@ -20,8 +20,8 @@
     "eslint-plugin-jsx-a11y": "^6.8.0"
   },
   "dependencies": {
-    "@monorepo-app-with-pnpm/eslint-config": "workspace:^",
-    "@monorepo-app-with-pnpm/shared-ui": "workspace:^",
+    "@shared/eslint-config": "workspace:^",
+    "@shared/ui": "workspace:^",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }

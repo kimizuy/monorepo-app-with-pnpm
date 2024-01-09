@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@monorepo-app-with-pnpm/shared-ui": "workspace:*",
+    "@shared/ui": "workspace:*",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@monorepo-app-with-pnpm/eslint-config": "workspace:^",
+    "@shared/eslint-config": "workspace:^",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

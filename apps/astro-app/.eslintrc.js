@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    "plugin:astro/recommended",
-    "@monorepo-app-with-pnpm/eslint-config",
-  ],
+  extends: ["plugin:astro/recommended", "@shared/eslint-config"],
   overrides: [
     {
       files: ["*.astro"],

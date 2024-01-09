@@ -1,7 +1,7 @@
-import { Button } from "@monorepo-app-with-pnpm/shared-ui";
+import { Button } from "@shared/ui";
 
 export default function Home() {
-  // shared-config のテスト
+  // shared/config のテスト
   console.log("Button", Button);
 
   return (
