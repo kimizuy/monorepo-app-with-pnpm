@@ -48,6 +48,9 @@ importers:
         specifier: ^18
         version: 18.2.0(react@18.2.0)
     devDependencies:
+      '@monorepo-app-with-pnpm/eslint-config':
+        specifier: workspace:^
+        version: link:../shared-config/eslint-config
       '@types/node':
         specifier: ^20
         version: 20.10.7
@@ -75,6 +78,8 @@ importers:
       typescript:
         specifier: ^5
         version: 5.3.3
+
+  packages/shared-config/eslint-config: {}
 
   packages/shared-ui:
     dependencies:
