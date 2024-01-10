@@ -12,7 +12,7 @@ importers:
     dependencies:
       '@shared/eslint-config':
         specifier: workspace:^
-        version: link:../../shared/config/eslint-config
+        version: link:../../shared/config/eslint
       '@shared/ui':
         specifier: workspace:^
         version: link:../../shared/ui
@@ -65,7 +65,7 @@ importers:
     devDependencies:
       '@shared/eslint-config':
         specifier: workspace:^
-        version: link:../../shared/config/eslint-config
+        version: link:../../shared/config/eslint
       '@types/node':
         specifier: ^20
         version: 20.10.7
@@ -94,7 +94,7 @@ importers:
         specifier: ^5
         version: 5.3.3
 
-  shared/config/eslint-config: {}
+  shared/config/eslint: {}
 
   shared/ui:
     dependencies:
