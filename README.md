@@ -11,13 +11,13 @@ pnpm install
 ### Run
 
 ```bash
-cd packages/next-app && pnpm dev
+cd apps/next-app && pnpm dev
 ```
 
 or
 
 ```bash
-cd packages/astro-app && pnpm dev
+cd apps/astro-app && pnpm dev
 ```
 
 ---
