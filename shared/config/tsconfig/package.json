@@ -1,0 +1,7 @@
+{
+  "name": "@shared/tsconfig",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3"
+  }
+}

@@ -960,6 +960,10 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@tsconfig/recommended@1.0.3:
+    resolution: {integrity: sha512-+jby/Guq9H8O7NWgCv6X8VAiQE8Dr/nccsCtL74xyHKhu2Knu5EAKmOZj3nLCnLm1KooUzKY+5DsnGVqhM8/wQ==}
+    dev: true
+
   /@types/babel__core@7.20.5:
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
     dependencies:
