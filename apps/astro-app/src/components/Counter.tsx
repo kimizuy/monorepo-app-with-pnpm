@@ -11,8 +11,6 @@ export default function Counter({
   const [count, setCount] = useState(initialCount)
   const add = () => setCount((i) => i + 1)
   const subtract = () => setCount((i) => i - 1)
-  // shared/config のテスト
-  console.log("Counter", { count, children })
 
   return (
     <>
