@@ -1,4 +1,4 @@
-pnpm workspace を使って Next.js と Astro のアプリを含むモノレポプロジェクトを作成し、`shared-ui` の共通 UI コンポーネントをそれぞれのアプリで使うまでのサンプルです。
+pnpm workspace を使って Next.js と Astro のアプリを含むモノレポプロジェクトを作成し、共通 UI コンポーネントをそれぞれのアプリで使うまでのサンプルです。
 
 ## Getting Started
 
