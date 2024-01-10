@@ -22,7 +22,7 @@ cd apps/astro-app && pnpm dev
 
 ---
 
-`packages/next-app`
+`apps/next-app`
 
 ```
 ✔ What is your project named? … next-app
@@ -34,7 +34,7 @@ cd apps/astro-app && pnpm dev
 ✔ Would you like to customize the default import alias (@/*)? … No
 ```
 
-`packages/astro-app`
+`apps/astro-app`
 
 ```
 ✔ Project name: … astro-app
