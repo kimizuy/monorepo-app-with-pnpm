@@ -1,8 +1,8 @@
-import { Button } from "@shared/ui";
+import { Button } from "@shared/ui"
 
 export default function Home() {
   // shared/config のテスト
-  console.log("Button", Button);
+  console.log("Button", Button)
 
   return (
     <main className="w-screen h-screen grid place-items-center">
@@ -11,5 +11,5 @@ export default function Home() {
         <Button>Shared button!</Button>
       </div>
     </main>
-  );
+  )
 }
