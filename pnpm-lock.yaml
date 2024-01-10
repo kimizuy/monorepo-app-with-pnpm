@@ -10,9 +10,6 @@ importers:
 
   apps/astro-app:
     dependencies:
-      '@shared/eslint-config':
-        specifier: workspace:^
-        version: link:../../shared/config/eslint
       '@shared/ui':
         specifier: workspace:^
         version: link:../../shared/ui
@@ -26,6 +23,9 @@ importers:
       '@astrojs/react':
         specifier: 2.1.0
         version: 2.1.0(@types/react-dom@18.0.11)(@types/react@18.0.28)(react-dom@18.2.0)(react@18.2.0)
+      '@shared/eslint-config':
+        specifier: workspace:^
+        version: link:../../shared/config/eslint
       '@shared/prettier-config':
         specifier: workspace:^
         version: link:../../shared/config/prettier
