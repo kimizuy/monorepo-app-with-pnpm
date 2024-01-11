@@ -1,7 +1,6 @@
 {
   "name": "@shared/ui",
   "version": "1.0.0",
-  "type": "module",
   "dependencies": {
     "react": "^18",
     "react-dom": "^18"
@@ -9,6 +8,7 @@
   "devDependencies": {
     "@shared/eslint-config": "workspace:^",
     "@shared/prettier-config": "workspace:^",
+    "@shared/tsconfig": "workspace:^",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",

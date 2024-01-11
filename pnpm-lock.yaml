@@ -29,6 +29,9 @@ importers:
       '@shared/prettier-config':
         specifier: workspace:^
         version: link:../../shared/config/prettier
+      '@shared/tsconfig':
+        specifier: workspace:^
+        version: link:../../shared/config/tsconfig
       '@types/react':
         specifier: 18.0.28
         version: 18.0.28
@@ -53,6 +56,9 @@ importers:
       prettier:
         specifier: ^3.1.1
         version: 3.1.1
+      typescript:
+        specifier: ^5
+        version: 5.3.3
 
   apps/next-app:
     dependencies:
@@ -75,6 +81,9 @@ importers:
       '@shared/prettier-config':
         specifier: workspace:^
         version: link:../../shared/config/prettier
+      '@shared/tsconfig':
+        specifier: workspace:^
+        version: link:../../shared/config/tsconfig
       '@types/node':
         specifier: ^20
         version: 20.10.7
@@ -118,6 +127,12 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1
 
+  shared/config/tsconfig:
+    devDependencies:
+      '@tsconfig/recommended':
+        specifier: ^1.0.3
+        version: 1.0.3
+
   shared/ui:
     dependencies:
       react:
@@ -133,6 +148,9 @@ importers:
       '@shared/prettier-config':
         specifier: workspace:^
         version: link:../config/prettier
+      '@shared/tsconfig':
+        specifier: workspace:^
+        version: link:../config/tsconfig
       '@types/react':
         specifier: ^18
         version: 18.0.28
