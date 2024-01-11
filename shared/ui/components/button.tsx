@@ -1,11 +1,11 @@
-import React, { FC } from "react";
+import React, { FC } from "react"
 
 interface ButtonProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const Button: FC<ButtonProps> = ({ children }) => {
-  return <button>{children}</button>;
-};
+  return <button>{children}</button>
+}
 
-export default Button;
+export default Button
